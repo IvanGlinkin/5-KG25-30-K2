@@ -1,13 +1,13 @@
 # 5-KG25-30-K2
 Tool for generating domains using mutation methods (including TLD, suffixes, prefixes) to identify phishing websites. Complies with Russia Supreme Court decision No. 5-KG25-30-K2 of June 24, 2025
 
---
+---
 
 ### ⚠️ Legal Disclaimer
 
 This software and associated materials are intended solely for proof-of-concept (PoC) and security research purposes. Unauthorized use of this code for real-world phishing attacks, fraudulent activities, or any malicious intent is strictly prohibited.
 
---
+---
 
 ### Sponsored by HydrAttack
 
@@ -30,25 +30,30 @@ External Attack Surface Management system <a href="https://hydrattack.com/" targ
    * for MacOS: https://docs.docker.com/desktop/setup/install/mac-install/
 
 2. Download the repository to your PC
-   * Using Git: `git clone https://github.com/IvanGlinkin/HydrAttack-PoC-eMail-Spoofer-Module.git`
-   * Download ZIP: https://github.com/IvanGlinkin/HydrAttack-PoC-eMail-Spoofer-Module/archive/refs/heads/main.zip
+   * Using Git: `git clone https://github.com/IvanGlinkin/5-KG25-30-K2.git`
+   * Download ZIP: https://github.com/IvanGlinkin/5-KG25-30-K2/archive/refs/heads/main.zip
    
 3. Go to the folder
-   * U/Linux: `cd HydrAttack-PoC-eMail-Spoofer-Module`
-   * Windows: `dir HydrAttack-PoC-eMail-Spoofer-Module`
+   * U/Linux: `cd 5-KG25-30-K2`
+   * Windows: `dir 5-KG25-30-K2`
   
 4. Create an image (DO NOT FORGET ABOUT THE DOT (.) )
    
-   `docker build -t docker-hydrattack-poc-email-spoofer .`
+   `docker build -t 5-kg25-30-k2 .`
 
-5. Launch the container
+5. Adjust right/atributs
+
+   *U/Linux: `chmod -R 777 checking_domains/`
+   ~Apache inside the docker working under www-data rights hence does not have priveledges to write data (reports) into the host folder!~
+
+6. Launch the container
    
-   `docker run -it --rm -e DOMAIN=abracadabra.ahha -e SENDTO=your@email.com -e USERNAME=spoofed -e ATTACH=/app/attachment.xlsm -v ./:/app docker-hydrattack-poc-email-spoofer`
+   `docker run -it --rm -p 80:80 -v .:/app 5-kg25-30-k2`
    
-   * USERNAME - sender username, e.g. *spoofed*@abracadabra.ahha
-   * DOMAIN - testing domain name, e.g. *abracadabra.ahha*
-   * SENDTO - email address, where to send a report, e.g. *your@email.com*
-   * ATTACH - file to attach to the email, e.g. *attachment.xlsm*
+7. Open the browser and enter
+
+   `http://localhost:80` 
+   
 ---
 
 #### Short instruction
