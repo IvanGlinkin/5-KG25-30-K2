@@ -60,7 +60,6 @@ External Attack Surface Management system <a href="https://hydrattack.com/" targ
 #### Short instruction
   
 ```
-cd ~/Documents
 git clone https://github.com/IvanGlinkin/5-KG25-30-K2.git
 cd 5-KG25-30-K2 
 docker build -t 5-kg25-30-k2 .
