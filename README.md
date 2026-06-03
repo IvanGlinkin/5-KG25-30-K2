@@ -44,7 +44,7 @@ External Attack Surface Management system <a href="https://hydrattack.com/" targ
 5. Adjust right/atributs
 
    *U/Linux: `chmod -R 777 checking_domains/`
-   ~Apache inside the docker working under www-data rights hence does not have priveledges to write data (reports) into the host folder!~
+   Apache inside the docker working under www-data rights hence does not have priveledges to write data (reports) into the host folder!
 
 6. Launch the container
    
