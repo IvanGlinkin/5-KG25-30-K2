@@ -1,5 +1,5 @@
 # 5-KG25-30-K2
-Tool for generating domains using mutation methods (including TLD, suffixes, prefixes) to identify phishing websites. Complies with Russia Supreme Court decision No. 5-KG25-30-K2 of June 24, 2025
+Tool for generating domain name mutations using various techniques, including Top Level Domain (TLD) changes and suffix modifications. The program is developed for domain name analysis and identification of potential counterfeit or phishing addresses. The app was created in accordance with the requirements of the Supreme Court's Determination on Civil Cases dated June 24, 2025, No. 5-KG25-30-K2. In the determination, the court annulled judicial decisions regarding consumer protection, monetary recovery, and moral damage compensation, as lower courts shifted the burden of proving case circumstances to the plaintiff who lacked the corresponding information and means to identify false representations of services on behalf of the defendant.
 
 ---
 
