@@ -1,0 +1,72 @@
+Saved to: checking_domains/google.com/output_20260603_081031.txt
+SQLite DB synced: checking_domains/google.com/google.com.sqlite3
+Host check finished: 109/206 domains resolved
+Screenshots finished: 42/109 saved
+Screenshot failures (up to 5):
+  - 0google.com: Screenshot skipped: final HTTP 200 not reached. https://0google.com -> final_url=https://0google.com/ status=451 | http://0google.com -> HTTPConnectionPool(host='0google.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='0google.com', port=80) at 0x7fe02c14ed90>, 'Connection to 0google.com timed out. (connect timeout=10)'))
+  - 1google.com: Screenshot skipped: final HTTP 200 not reached. https://1google.com -> HTTPSConnectionPool(host='1google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='1google.com', port=443) at 0x7fe02eb40a50>, 'Connection to 1google.com timed out. (connect timeout=10)')) | http://1google.com -> HTTPConnectionPool(host='1google.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='1google.com', port=80) at 0x7fe02c167290>, 'Connection to 1google.com timed out. (connect timeout=10)'))
+  - 2google.com: Screenshot skipped: final HTTP 200 not reached. https://2google.com -> HTTPSConnectionPool(host='2google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='2google.com', port=443) at 0x7fe02eb439d0>, 'Connection to 2google.com timed out. (connect timeout=10)')) | http://2google.com -> HTTPConnectionPool(host='2google.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='2google.com', port=80) at 0x7fe02c165e90>, 'Connection to 2google.com timed out. (connect timeout=10)'))
+  - 4google.com: Screenshot failed: webdriver error: Message: unknown error: net::ERR_SSL_PROTOCOL_ERROR
+  (Session info: chrome=148.0.7778.215)
+Stacktrace:
+#0 0x5614bc15dd3e <unknown>
+#1 0x5614bbaedf34 <unknown>
+#2 0x5614bbaeaed4 <unknown>
+#3 0x5614bbad5c35 <unknown>
+#4 0x5614bbad7833 <unknown>
+#5 0x5614bbad5f82 <unknown>
+#6 0x5614bbad57e1 <unknown>
+#7 0x5614bbad5739 <unknown>
+#8 0x5614bbad3b4a <unknown>
+#9 0x5614bbad3e7a <unknown>
+#10 0x5614bbaf1fea <unknown>
+#11 0x5614bbb86b64 <unknown>
+#12 0x5614bbb63f12 <unknown>
+#13 0x5614bbb8657f <unknown>
+#14 0x5614bbb63cd3 <unknown>
+#15 0x5614bbb30b8e <unknown>
+#16 0x5614bbb317b1 <unknown>
+#17 0x5614bc120520 <unknown>
+#18 0x5614bc1237e5 <unknown>
+#19 0x5614bc12321a <unknown>
+#20 0x5614bc123c45 <unknown>
+#21 0x5614bc10ff69 <unknown>
+#22 0x5614bc123fa7 <unknown>
+#23 0x5614bc0f8466 <unknown>
+#24 0x5614bc14a635 <unknown>
+#25 0x5614bc14a813 <unknown>
+#26 0x5614bc15c8aa <unknown>
+#27 0x7fd831f9d1f5 <unknown>
+
+  - 5google.com: Screenshot failed: webdriver error: Message: unknown error: net::ERR_SSL_PROTOCOL_ERROR
+  (Session info: chrome=148.0.7778.215)
+Stacktrace:
+#0 0x56415b609d3e <unknown>
+#1 0x56415af99f34 <unknown>
+#2 0x56415af96ed4 <unknown>
+#3 0x56415af81c35 <unknown>
+#4 0x56415af83833 <unknown>
+#5 0x56415af81f82 <unknown>
+#6 0x56415af817e1 <unknown>
+#7 0x56415af81739 <unknown>
+#8 0x56415af7fb4a <unknown>
+#9 0x56415af7fe7a <unknown>
+#10 0x56415af9dfea <unknown>
+#11 0x56415b032b64 <unknown>
+#12 0x56415b00ff12 <unknown>
+#13 0x56415b03257f <unknown>
+#14 0x56415b00fcd3 <unknown>
+#15 0x56415afdcb8e <unknown>
+#16 0x56415afdd7b1 <unknown>
+#17 0x56415b5cc520 <unknown>
+#18 0x56415b5cf7e5 <unknown>
+#19 0x56415b5cf21a <unknown>
+#20 0x56415b5cfc45 <unknown>
+#21 0x56415b5bbf69 <unknown>
+#22 0x56415b5cffa7 <unknown>
+#23 0x56415b5a4466 <unknown>
+#24 0x56415b5f6635 <unknown>
+#25 0x56415b5f6813 <unknown>
+#26 0x56415b6088aa <unknown>
+#27 0x7fee4a38b1f5 <unknown>
+

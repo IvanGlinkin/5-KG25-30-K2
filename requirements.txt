@@ -1,0 +1,4 @@
+requests>=2.31,<3
+urllib3>=2,<3
+selenium>=4.18,<5
+mysql-connector-python>=9.6.0,<10
