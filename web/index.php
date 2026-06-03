@@ -1323,8 +1323,8 @@ document.querySelectorAll('.status-select').forEach(function(select) {
         });
     });
 });
+</script>
 <div style="position:fixed;bottom:0;width:100%;text-align:center;padding:10px;"> Made in Russia with Love <a 
 href="https://hydrattack.com" target="_blank" style="color:#007BFF;text-decoration:none;">HydrAttack.com</a></div>
-</script>
 </body>
 </html>
